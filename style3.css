@@ -1,18 +1,18 @@
-body{
-    background-color:rgb(26, 20, 14);
+body {
+    background-color: rgb(26, 20, 14);
     color: white;
     font-family: "Red Hat Display", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
 }
 
-a{
+a {
     color: white;
     text-decoration: none;
 }
 
-nav{
-    background-color:rgb(26, 20, 14);
+nav {
+    background-color: rgb(26, 20, 14);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -25,114 +25,131 @@ nav{
     z-index: 1000;
 }
 
-nav a:hover{
+nav a:hover {
     text-decoration: overline;
 }
-        ul{
-            display: flex;
-            justify-content: space-between;
-            list-style: none;
-        }
 
-        li{
-            margin: 10px;
-        }
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
 
-        .logo{
-            background-image: url(logo.png);
-            background-position: center;
-            background-size: cover;
-            width:70px;
-            height: 110%;
-        }
-        
-        .boton-login{
-            background-color: black;
-            color: white;
-            border-radius: 12px 10px;
-            border: 2px solid white;
-            padding: 10px 30px;
-            margin-right: 30px;
-        }
+li {
+    margin: 10px;
+}
 
-        .boton-login:hover{
-            background-color: white;
-            color: black;
-        }
+.logo {
+    background-image: url(logo.png);
+    background-position: center;
+    background-size: cover;
+    width: 70px;
+    height: 110%;
+}
+
+.boton-login {
+    background-color: black;
+    color: white;
+    border-radius: 12px 10px;
+    border: 2px solid white;
+    padding: 10px 30px;
+    margin-right: 30px;
+}
+
+.boton-login:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
 
 
-.container{
+.container {
     display: flex;
     flex-wrap: wrap;
     height: 80vh;
     margin-top: 4rem;
 }
 
-    .img-container{
-        flex: 1 1 40%;
-        background-position: center;
-        background-size: cover;
-        background-color: rgba(26, 20, 14, 0.575);
-        background-image:url(atlas.png);
-        width: auto;
-        height: 650px;
-        margin: 10px;
-    }
+.img-container {
+    flex: 1 1 40%;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(26, 20, 14, 0.575);
+    background-image: url(atlas.png);
+    width: auto;
+    height: 650px;
+    margin: 10px;
+}
 
-    .hero{
-        margin-left: 20px;
-        flex: 50%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align:right;
-        color: #dbb36e;
-        padding-bottom: 150px;
-    }
-        .hero h1{
-            font-size: 4em;
-        }
+.hero {
+    margin-left: 20px;
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+    color: #dbb36e;
+    padding-bottom: 150px;
+}
 
-        .hero p{
-            font-size: 1.5em;
-        }
+.hero h1 {
+    font-size: 4em;
+}
+
+.hero p {
+    font-size: 1.5em;
+}
 
 
-    .card-container{
-        display: flex;
-        flex: 1 1 100%;
-        flex-direction: row;
-        justify-content: center;
-    }
+.card-container {
+    display: flex;
+    flex: 1 1 100%;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1.5rem;
+}
 
-        .card{
-            background-color: #dbb36ea0;
-            color: white;
-            border-radius: 5px;
-            margin: 30px;
-            text-align: center;
-            width: 300px;
-            height: 60px;
-        }
+.card {
+    background-color: #dbb36ea0;
+    color: white;
+    border-radius: 5px;
+    margin: 30px;
+    text-align: center;
+    width: 300px;
+    height: 60px;
+}
 
-        .card:hover{
-            background-color: #f9cb7cdc;
-            height: auto;
-        }
+.card:hover {
+    background-color: #f9cb7cdc;
+    height: auto;
+}
 
-        .card:target{
-            height: auto;
-        }
+.card:target {
+    height: auto;
+}
 
-        .card:target .card-content{
-            display: block;
-        }
-        .card-content{
-            display: none;
-        }
+.card:target .card-content {
+    display: block;
+}
 
-        .card:hover .card-content{
-            display: block;
-        }
+.card-content {
+    display: none;
+}
 
-        
+.card:hover .card-content {
+    display: block;
+}
+
+.button-rol {
+    background-color: #dbb36ea0;
+    color: white;
+    border-radius: 20px;
+    border: 2px solid white;
+    padding: 10px 30px;
+
+
+}
+
+.button-rol:hover {
+    background-color: rgb(26, 20, 14);
+}
