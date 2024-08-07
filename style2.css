@@ -1,0 +1,159 @@
+body{
+    background-color: #D8D8D8;
+    margin: 0;
+    color: white;
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+nav{
+    background-color: #bebebe;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(207, 207, 207);
+    height: 50px;
+}
+
+    ul{
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+    }
+
+    li{
+        margin: 10px;
+    }
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover{
+    text-decoration: overline;
+}
+
+.logo{
+    background-image: url(logo_crombie.png);
+    background-position: center;
+    background-size: cover;
+    width: 130px;
+    height: 70px;
+}
+
+.boton-login{
+    background-color: black;
+    color: white;
+    border-radius: 12px 10px;
+    border: 2px solid white;
+    padding: 10px 30px;
+}
+
+.boton-login:hover{
+    background-color: white;
+    color: black;
+}
+
+
+.container{
+    display: flex;
+    height: 80vh;
+}
+
+.card-container{
+    flex: 1 1 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 1rem;
+    max-height: 100vh;
+    
+}
+
+.img-container{
+    height: 91%;
+    width: 690px;
+    background-size: cover;
+    top: initial;
+    left: 0;
+    position: absolute;
+    background-repeat: no-repeat;
+    background: url(Crombie-15.png) center center;
+    z-index: -1;
+}
+article{
+    display: flex;
+    background-color: rgb(150, 150, 150);
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 140px;
+    width: auto;
+    margin: 20px;
+}
+
+article h3{
+    margin: 5px;
+}
+
+.card-content{
+    display: none;
+    text-align: left;
+}
+
+article:hover {
+    width: 650px;
+    height: 140px;
+    border: 2px solid rgba(255, 255, 255, 0.768);
+}
+
+article:hover .card-content{
+    display: flex;
+    align-items: center;
+}
+
+.boton-ingresar{
+    height: 30px;
+    width: 60px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton-ingresar:hover{
+    background-color: white;
+    color: black;
+}
+
+.dev{
+    background-color: #25b2e2;
+    width: 200px;
+}
+
+.pm{
+    background-color: #ffb12a;
+    
+}
+
+.last-cards{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.card-decorativa{
+    display: block;
+    background-color: #ee326c;
+    border-radius: 10px;
+    height: 140px;
+    width: 90px;
+    margin: 20px;
+}
+
+.manager{
+    background-color: #80319b;
+    width: 260px;
+}
