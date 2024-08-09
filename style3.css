@@ -45,6 +45,14 @@ nav a:hover{
             width:70px;
             height: 110%;
         }
+
+        .crombie-logo{
+            background-image: url(logo_crombie_atlas.png);
+        background-position: center;
+        background-size: cover;
+        width: 130px;
+        height: 70px;
+        }
         
         .boton-login{
             background-color: black;
@@ -60,6 +68,10 @@ nav a:hover{
             color: black;
         }
 
+
+#home-page{
+    height: 150vh;
+}
 
 .container{
     display: flex;
@@ -135,4 +147,17 @@ nav a:hover{
             display: block;
         }
 
-        
+    footer{
+        border-top: 2px solid #dbb36e;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .logo-crombie{
+        background-image: url(logo_crombie.png);
+        background-position: center;
+        background-size: cover;
+        width: 130px;
+        height: 70px;
+    }
