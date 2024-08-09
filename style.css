@@ -64,11 +64,14 @@ nav a:hover{
     )
     ,url(Crombie-14.jpg);
     height: 50vh;
+    width: 100%;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.63);
 }
 
 #card{
     height: auto;
     display: flex;
+    margin-top: 5vh;
     flex-direction: row;
     align-items: center;
 }
@@ -80,12 +83,25 @@ article{
     align-items: center;
     margin: 20px;
     border-radius: 10px;
-    height: 30vh;
+    height: 150px;
+    box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.63);
 }
 
 article h3{
     margin-bottom: 0px;
 }
+
+.card-content{
+    display: none;
+}
+
+article:hover{
+    padding-bottom: 30px;
+}
+article:hover .card-content{
+    display: block;
+}
+
 
 .boton-ingresar{
     height: 30px;
